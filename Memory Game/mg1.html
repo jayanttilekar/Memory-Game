@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Memory-Game</title>
+    <link href="/JS/Memory-Game/Memory Game/mg.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.1/css/all.min.css" integrity="sha512-ioRJH7yXnyX+7fXTQEKPULWkMn3CqMcapK0NNtCN8q//sW7ZeVFcbMJ9RvX99TwDg6P8rAH2IqUSt2TLab4Xmw==" crossorigin="anonymous" referrerpolicy="no-referrer" />  </head>
+    
+  <body>
+    <div id="cover" class="d-flex vh-100 vw-100 sticky-top"></div>
+
+   <div class="container img vh-100 vw-100">
+     <div class="row" >
+         <div class="col-2 fish" id="1">
+          <div class="flip-card">
+          <div class="flip-card-inner" id="flip1">
+            <div class="flip-card-back">
+              <img alt="Avatar">
+            </div>
+            <div class="flip-card-front" style="background-color: black;">
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="col-2 monkey" id="2">
+          <div class="flip-card">
+          <div class="flip-card-inner" id="flip2">
+            <div class="flip-card-back">
+              <img  alt="Avatar">
+            </div>
+            <div class="flip-card-front" style="background-color: black;">
+            </div>           
+          </div>
+        </div>
+        </div>
+        <div class="col-2 zebra" id="3">
+          <div class="flip-card">
+          <div class="flip-card-inner" id="flip3">
+            <div class="flip-card-back">
+                <img  alt="Avatar">
+              </div>
+            <div class="flip-card-front" style="background-color: black;">
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="col-2 dog" id="4">
+          <div class="flip-card">
+          <div class="flip-card-inner" id="flip4">
+            <div class="flip-card-back">
+                <img  alt="Avatar">
+              </div>
+            <div class="flip-card-front" style="background-color: black;">
+            </div>            
+          </div>
+        </div>
+        </div>
+        <div class="col-2 lion" id="5">
+          <div class="flip-card">
+          <div class="flip-card-inner" id="flip5">
+            <div class="flip-card-back">
+                <img  alt="Avatar">
+              </div>
+            <div class="flip-card-front" style="background-color: black;">
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="col-2 panda" id="6">
+          <div class="flip-card">
+          <div class="flip-card-inner"  id="flip6">
+            <div class="flip-card-back">
+                <img  alt="Avatar">
+              </div>
+            <div class="flip-card-front" style="background-color: black;">
+            </div>
+          </div>
+        </div>
+        </div>
+     </div>
+
+
+
+
+
+     <div class="row" >
+      <div class="col-2 snake" id="7">
+        <div class="flip-card">
+        <div class="flip-card-inner"  id="flip7">
+            <div class="flip-card-back">
+                <img  alt="Avatar">
+              </div>
+            <div class="flip-card-front" style="background-color: black;">
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="col-2 owl" id="8">
+        <div class="flip-card">
+        <div class="flip-card-inner"  id="flip8">
+            <div class="flip-card-back">
+                <img  alt="Avatar">
+              </div>
+            <div class="flip-card-front" style="background-color: black;">
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="col-2 owl" id="9">
+        <div class="flip-card">
+        <div class="flip-card-inner"  id="flip9">
+            <div class="flip-card-back">
+                <img  alt="Avatar">
+              </div>
+            <div class="flip-card-front" style="background-color: black;">
+          </div>      
+        </div>
+      </div>
+      </div>
+      <div class="col-2 bear" id="10">
+        <div class="flip-card">
+        <div class="flip-card-inner" id="flip10">
+            <div class="flip-card-back">
+                <img  alt="Avatar">
+              </div>
+            <div class="flip-card-front" style="background-color: black;">
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="col-2 monkey" id="11">
+        <div class="flip-card">
+        <div class="flip-card-inner"  id="flip11">
+            <div class="flip-card-back">
+                <img  alt="Avatar">
+              </div>
+            <div class="flip-card-front" style="background-color: black;">
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="col-2 snake" id="12">
+        <div class="flip-card">
+        <div class="flip-card-inner"  id="flip12">
+            <div class="flip-card-back">
+                <img  alt="Avatar">
+              </div>
+            <div class="flip-card-front" style="background-color: black;">
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+
+
+
+
+    <div class="row" >
+      <div class="col-2 tiger" id="13">
+        <div class="flip-card">
+        <div class="flip-card-inner"  id="flip13">
+            <div class="flip-card-back">
+                <img  alt="Avatar">
+              </div>
+            <div class="flip-card-front" style="background-color: black;">
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="col-2 panda" id="14">
+        <div class="flip-card">
+        <div class="flip-card-inner"  id="flip14">
+            <div class="flip-card-back">
+                <img  alt="Avatar">
+              </div>
+            <div class="flip-card-front" style="background-color: black;">
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="col-2 lion" id="15">
+        <div class="flip-card">
+        <div class="flip-card-inner" id="flip15">
+            <div class="flip-card-back">
+                <img  alt="Avatar">
+              </div>
+            <div class="flip-card-front" style="background-color: black;">
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="col-2 cat" id="16">
+        <div class="flip-card">
+        <div class="flip-card-inner" id="flip16">
+            <div class="flip-card-back">
+                <img  alt="Avatar">
+              </div>
+            <div class="flip-card-front" style="background-color: black;">
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="col-2 dog" id="17">
+        <div class="flip-card">
+        <div class="flip-card-inner" id="flip17" >
+            <div class="flip-card-back">
+                <img  alt="Avatar">
+              </div>
+            <div class="flip-card-front" style="background-color: black;">
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="col-2 crocodile" id="18">
+        <div class="flip-card">
+        <div class="flip-card-inner" id="flip18">
+            <div class="flip-card-back">
+                <img  alt="Avatar">
+              </div>
+            <div class="flip-card-front" style="background-color: black;">
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+
+
+
+
+    <div class="row" >
+      <div class="col-2 crocodile" id="19">
+        <div class="flip-card">
+        <div class="flip-card-inner" id="flip19">
+            <div class="flip-card-back">
+                <img  alt="Avatar">
+              </div>
+            <div class="flip-card-front" style="background-color: black;">
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="col-2 cat" id="20">
+        <div class="flip-card">
+        <div class="flip-card-inner" id="flip20">
+            <div class="flip-card-back">
+                <img  alt="Avatar">
+              </div>
+            <div class="flip-card-front" style="background-color: black;">
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="col-2 tiger" id="21">
+        <div class="flip-card">
+        <div class="flip-card-inner" id="flip21">
+            <div class="flip-card-back">
+                <img alt="Avatar">
+              </div>
+            <div class="flip-card-front" style="background-color: black;">
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="col-2 fish" id="22">
+        <div class="flip-card">
+        <div class="flip-card-inner" id="flip22">
+            <div class="flip-card-back">
+                <img  alt="Avatar">
+              </div>
+            <div class="flip-card-front" style="background-color: black;">
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="col-2 zebra" id="23">
+        <div class="flip-card">
+        <div class="flip-card-inner" id="flip23">
+            <div class="flip-card-back">
+                <img  alt="Avatar">
+              </div>
+            <div class="flip-card-front" style="background-color: black;">
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="col-2 bear" id="24">
+        <div class="flip-card">
+        <div class="flip-card-inner" id="flip24">
+            <div class="flip-card-back">
+                <img  alt="Avatar">
+              </div>
+            <div class="flip-card-front" style="background-color: black;">
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+   </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="/JS/Memory-Game/Memory Game/mg1.js"></script>
+</body>
+</html>
